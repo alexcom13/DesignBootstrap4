@@ -25,9 +25,9 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
-          <li class="nav-item"><a class="nav-link" href="./precios.html">Precios</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#">Precios</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
-          <li class="nav-item active"><a class="nav-link" href="#">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
         </ul>
       </div>
     </nav>
@@ -41,58 +41,62 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <il class="breadcrumb-item"><a href="./index.html">Home</a></il>
-          <il class = "breadcrumb-item active" aria-current="page">Contacto</il>
+          <il class = "breadcrumb-item active" aria-current="page">Precios</il>
         </ol>
       </nav>
 
-      <h1>Dejáme tu comentario, boludo</h1>
-      <form>
-        <div class="form-row">
-          <div class = "form-group col-sm-6">
-            <label for ="nombre">Nombre</label>
-            <input type ="text" class="form-control" id="nombre" placeholder="Intese su nombre"> 
-          </div>
-          <div class = "form-group col-sm-6">
-            <label for ="apelido">Apellido</label>
-            <input type ="text" class="form-control" id="apelido" placeholder="Intese su apelido">
-          </div>
-        </div>
-
-        <div class = "form-group">
-            <label for ="email">Email</label>
-            <input type ="text" class="form-control" id="email" placeholder="Intese su email">
-        </div>
-
-        <div class="form-row">
-          <div class = "form-group col-sm-9">
-            <label for ="domicilio">Domicilio</label>
-            <input type ="text" class="form-control" id="domicilio" placeholder="Intese su domicilio"> 
-          </div>
-          <div class = "form-group col-sm-3">
-            <label for ="ciudad">Ciudad</label>
-            <select id="ciudad" class="form-control">
-              <option>Cd de México</option>
-              <option>Bangkok</option>
-              <option>Singapor</option>
-              <option>New York </option>
-              <option>Macau</option>
-            </select>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="comentario">Comentario</label>
-          <textarea id="comentario" class="form-control" rows="10"></textarea>
-        </div>
-
-        <div clas="form-group">
-          <div class="form-check">
-            <input clasS="form-check-input" type="checkbox" id="cajacheck">
-            <lable for="cajacheck" class="form-check-label">Contactarme!</lable>
-          </div>
-        </div>
-        <button type ="submit" class="btn btn-primary">Enviar</button>
-
-      </form>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <th>Calidad</th>
+            <th>Puerto Escondido (Oaxaca)</th>
+            <th>Acapulco (Guerrero)</th>
+            <th>Ciudad del Carmen (Campeche)</th>
+            <th>Boca del Rio (Veracruz)</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="oi oi-star"></span></td>
+              <td>$150</td>
+              <td>$190</td>
+              <td>$120</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+              <td>$250</td>
+              <td>$290</td>
+              <td>$220</td>
+              <td>$200</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star">
+              </span><span class="oi oi-star"></span></td>
+              <td>$350</td>
+              <td>$390</td>
+              <td>$320</td>
+              <td>$300</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star">
+              </span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+              <td>$450</td>
+              <td>$490</td>
+              <td>$420</td>
+              <td>$400</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span>
+              <span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star">
+              </span></td>
+              <td>$550</td>
+              <td>$590</td>
+              <td>$520</td>
+              <td>$500</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
     </div>
     
